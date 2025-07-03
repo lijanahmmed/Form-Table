@@ -1,4 +1,14 @@
-a{
-    text-align: justify;
+div{
     margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: larger;
+    font-weight: bolder;
+}
+p{
+    margin: 20px;
+    border: 2px solid tomato;
+    padding: 10px;
+    text-align: justify;
 }
