@@ -1,14 +1,40 @@
-div{
+
+body{
+    width: 50%;
+    margin: 20px auto;
+}
+section{
+    margin-top: 50px;
+}
+fieldset{
+    margin: 20px 0px;
+}
+h2{
+    text-align: center;
+}
+form .basic-info label{
+    display: block;
+    margin-top: 10px;
+}
+.input{
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+
+
+
+table{
+    border-collapse: collapse;
     margin: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
+}
+.caption{
+    margin: 10px;
     font-size: larger;
     font-weight: bolder;
 }
-p{
-    margin: 20px;
-    border: 2px solid tomato;
-    padding: 10px;
-    text-align: justify;
+th, td{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
 }
